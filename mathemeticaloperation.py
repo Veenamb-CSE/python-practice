@@ -1,0 +1,7 @@
+print("My age: " + str(12))
+print(12+34)
+print(12.34-9.45)
+print(2*3)
+print(2/4)
+print(2//4)
+print(3*3+3/3-3)
