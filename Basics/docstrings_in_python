@@ -1,0 +1,27 @@
+def format_name(f_name, l_name):
+    """
+    My Multiline Comment """
+    formated_f_name = f_name.title()
+    formated_l_name = l_name.title()
+    return f"{formated_f_name} {formated_l_name}"
+
+
+formatted_name = format_name("AnGeLa", "YU")
+
+length = len(formatted_name)
+def my_function(a):
+    """
+    My Multiline Comment
+
+    """
+    if a < 40:
+        return
+        print("Terrible")
+    if a < 80:
+        return "Pass"
+    else:
+        return "Great"
+print(my_function(25))
+
+
+
